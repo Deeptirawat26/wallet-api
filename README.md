@@ -19,16 +19,19 @@ This project contains a Node.js and Express application that provides a "GET" AP
 
 2. Navigate to the project directory:
 
+   ```bash
    cd wallet-api
 
 3. Install the required dependencies:
 
+   ```bash
    npm install
 
 ## Usage
 
 1. Start the server:
 
+   ```bash
    node index.mjs
 
 2. Access the API endpoint in your browser or through a tool like curl or Postman:
@@ -42,8 +45,13 @@ This project contains a Node.js and Express application that provides a "GET" AP
 The API returns a JSON object with the following fields for each transaction:
 
 blockTime: The time when the block was created.
+
 confirmationStatus: The confirmation status of the transaction.
+
 err: Any error that occurred during the transaction.
+
 memo: Memo field attached to the transaction.
+
 signature: The unique signature of the transaction.
+
 slot: The slot number where the transaction was included.
